@@ -1,0 +1,8 @@
+<div st>
+  {% for news in news_list %}
+    <div style="margin: 20px">
+      <div><b>{{ 'Title'|trans }}</b> : {{ news.title }}</div>
+      <div><b>{{ 'News'|trans }}</b> : {{ news.body }}</div>
+    </div>
+  {% endfor %}
+</div>
