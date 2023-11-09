@@ -1,0 +1,4 @@
+services:
+  news_feed.news_feed_service:
+    class: Drupal\news_feed\NewsFeedService
+    arguments: ['@config.factory', '@http_client']
