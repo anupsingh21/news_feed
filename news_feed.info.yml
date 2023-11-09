@@ -1,0 +1,5 @@
+name: 'News Feed'
+type: module
+description: 'News feed from external API'
+core_version_requirement: ^9 || ^10
+package: 'Custom'
