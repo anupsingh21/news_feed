@@ -1,0 +1,3 @@
+access news feed settings:
+  title: 'Access new feed admin settings'
+  description: 'Access news feed admin settings to update the feed endpoint and number of new to pull'
