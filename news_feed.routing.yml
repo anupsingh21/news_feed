@@ -1,0 +1,9 @@
+news_feed.admin_settings_form:
+  path: '/admin/config/news_feed/settings'
+  defaults:
+    _form: '\Drupal\news_feed\Form\NewsFeedAdminForm'
+    _title: 'News Feed admin form'
+  requirements:
+    _permission: 'access news feed settings'
+  options:
+    _admin_route: TRUE
